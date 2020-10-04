@@ -1,8 +1,10 @@
 import React from 'react';
+const name = 'Walter White';
 
 const App = () => {
   return (
-    <div> <h1> Hello World!</h1>  </div>
+    <div><h1> Hello {name} </h1></div>
+
   );
 }
 
