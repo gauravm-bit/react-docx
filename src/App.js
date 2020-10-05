@@ -1,18 +1,11 @@
 import React from 'react';
 
-const formatName = (user) => {
-  return user.firstName + ' ' + user.lastName;
-}
-
-const user = {
-  firstName: 'Walter',
-  lastName: 'White'
-}
-
+ 
 const App = () => {
   return (
     <div>
-      <h1> Hello,{formatName(user)}!</h1>
+      <h1> Hello, World!</h1>
+      <h2> It is {new Date().toLocaleTimeString()}</h2>
     </div>
 
   );
