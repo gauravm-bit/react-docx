@@ -1,13 +1,18 @@
 import React from 'react';
+import AppTwo from './AppTwo';
 
 
-const App = () => {
-  return (
-    <div>
-      <h1> Hello, World!</h1>
-      <h2> It is </h2>
-    </div>
-  );
+class App extends React.Component {
+  render() {
+     
+
+    return (
+      <div>
+        <h1> Hello, World!</h1>
+        <h2> It is   </h2>
+        <AppTwo name = 'JessePinkman'/>
+      </div>
+    )
+  }
 }
-
 export default App;
