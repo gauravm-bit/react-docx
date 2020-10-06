@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import EventHandling from './EventHandling'
+import Toggle from './Toggle'
 
  
   ReactDOM.render(
-   <EventHandling />,
+   <Toggle />,
     document.getElementById('root')
   );
  
