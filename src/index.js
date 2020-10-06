@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import LoginControl from './LoginControl'
+import WarningBanner from './WarningBanner'
 
- 
-  ReactDOM.render(
-   <LoginControl />,
+
+ReactDOM.render(
+   <WarningBanner />,
     document.getElementById('root')
   );
  
