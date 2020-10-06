@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import WarningBanner from './WarningBanner'
+import List from './List'
 
 
 ReactDOM.render(
-   <WarningBanner />,
+   <List/>,
     document.getElementById('root')
   );
  

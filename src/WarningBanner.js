@@ -12,8 +12,6 @@ class WarningBanner extends React.Component {
         })
     }
 
-     
-
     render(){
         return<div> 
             <Warn status = {this.state.showWarning} />
