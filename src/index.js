@@ -1,11 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
-import Clock from './Clock'
+import EventHandling from './EventHandling'
 
  
   ReactDOM.render(
-   <Clock />,
+   <EventHandling />,
     document.getElementById('root')
   );
  
