@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import List from './List'
+import Form from './Form'
 
 
 ReactDOM.render(
-   <List/>,
+   <Form/>,
     document.getElementById('root')
   );
  
