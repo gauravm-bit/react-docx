@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Form from './Form'
+import FlavourForm from './FlavourForm'
 
 
 ReactDOM.render(
-   <Form/>,
+   <FlavourForm />,
     document.getElementById('root')
   );
  
